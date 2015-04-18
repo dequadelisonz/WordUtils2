@@ -25,3 +25,7 @@ The algoritm tries to catch also mixed inputs such as "3 ventidue (3 twentytwo)"
 This method was implemented to convert spoken numbers grabbed from ASR of Google/ Android into numbers useful for calculation or other purposes.
 
 The main class can be improved to include other methods to convert numbers from other languages, or to create a general purpose method which read the default language of the local system and decides by itself the language to select.
+
+This library can be included in your project by adding this string to the build.gradle file of your module:
+
+compile(group: 'it.code.martin', name: 'wordutils2', version: '1.0.0', ext: 'aar')
